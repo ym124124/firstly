@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>colgroup和col</title>
+</head>
+<body>
+	colgroup（定义列的组）和col（定义列的属性）相当于是用于修饰表格的。<br/><br/>
+	table--->colgroup--->col <br/><br/>
+	span，style="background-color: ;" 在col中修饰<br/><br/><br/>
+	<table border="2" >
+		<colgroup>
+			<col span="1" style="background-color:yellow;">
+			<col span="2" style="background:red;">
+		</colgroup>
+		<colgroup>
+			<col span="1" style="background-color:orange;">
+			
+		</colgroup>
+		
+		<tr>
+			<td>lala</td>
+			<td>lala</td>
+			<td>LALA</td>
+			<td>lala</td>
+			<td>alal</td>
+		</tr>
+		<tr>
+			<td>lala</td>
+			<td>lala</td>
+			<td>LALA</td>
+			<td>lala</td>
+			<td>alal</td>
+		</tr>
+	</table>
+
+<br/>
+<br/>
+<br/>
+<br/>
+P.S 巧妙创建tr td 方式如下：
+<br/>
+tr>td*5再按Tab键  就会自动出现<br/><br/>《tr》<br/> &nbsp;&nbsp;&nbsp;&nbsp;《td》《/td》<br/>&nbsp;&nbsp;&nbsp;&nbsp;《td》《/td》<br/>&nbsp;&nbsp;&nbsp;&nbsp;《td》《/td》<br/>&nbsp;&nbsp;&nbsp;&nbsp;《td》《/td》<br/>《/tr》
+</body>
+</html>
